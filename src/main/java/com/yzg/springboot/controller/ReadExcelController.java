@@ -27,7 +27,7 @@ import java.util.List;
 
 
 @Controller
-@Api(tags = "读excel文件数据")
+@Api(tags = "读取、导出excel文件数据")
 @RequestMapping("/readExcel")
 public class ReadExcelController {
 
@@ -53,7 +53,7 @@ public class ReadExcelController {
         }
     }
 
-    @ApiOperation(value = "导出数据")
+    @ApiOperation(value = "导出excel数据")
     @GetMapping("/exportExcel")
     public void exportExcel(HttpServletResponse response) {
         try{
