@@ -11,8 +11,13 @@ spring:
       max-file-size: 100MB
       max-request-size: 1000MB
 server:
-  port: 8088
+  port: 8089
   servlet:
     context-path: /file
 swagger:
   enable: true
+mybatis:
+  type-aliases-package:  com.yzg.springboot.entity
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

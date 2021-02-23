@@ -17,7 +17,7 @@ public class HandleFileServiceImpl implements HandleFileService {
 
     @Override
     public void convertPdfToWord(MultipartFile file) {
-        String pathName = "C:\\Users\\Administrator\\Desktop\\upload\\";
+        String pathName = "C:\\Users\\Nari\\Desktop\\upload\\";
         String fileName = file.getOriginalFilename();
         String fileFullName = pathName + fileName;
         FileOutputStream fos = null;
