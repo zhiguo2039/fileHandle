@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3cca533-8fba-4182-afff-c4dcb7d6040e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yzg/springboot/controller/ReadExcelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yzg/springboot/controller/ReadExcelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yzg/springboot/SpringbootApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yzg/springboot/SpringbootApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzg/springboot/controller/ReadExcelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yzg/springboot/controller/ReadExcelController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yzg/springboot/SpringbootApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yzg/springboot/SpringbootApplicationTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootApplication">
+  <component name="RunManager" selected="Application.ThreadPoolSerialTest">
     <configuration name="ClassDistribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzg.springboot.reflect.ClassDistribute" />
       <module name="springboot" />
@@ -144,6 +151,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadPoolSerialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzg.springboot.excutePool.ThreadPoolSerialTest" />
+      <module name="springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzg.springboot.excutePool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzg.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yzg.springboot" />
+      <option name="MAIN_CLASS_NAME" value="com.yzg.springboot.SpringbootApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yzg.springboot.SpringbootApplication" />
@@ -153,6 +189,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPoolSerialTest" />
+        <item itemvalue="JUnit.SpringbootApplicationTests.test" />
         <item itemvalue="Application.GetReflect" />
         <item itemvalue="Application.ClassDistribute" />
         <item itemvalue="Application.LoadSequence" />
@@ -201,11 +239,25 @@
       <workItem from="1613958771424" duration="2325000" />
       <workItem from="1614041395124" duration="52000" />
       <workItem from="1614067585743" duration="6169000" />
+      <workItem from="1614302103719" duration="1192000" />
+      <workItem from="1614323332818" duration="2126000" />
+      <workItem from="1614567102551" duration="26000" />
+      <workItem from="1614757334586" duration="12586000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
